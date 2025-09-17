@@ -91,11 +91,11 @@ Metric: R² Score, MAE, RMSE.
 
 Model	R² Score	MAE (Millions)	RMSE (Millions)
 
-Random Forest 🌲	 0.936	 7.69	   50.55
+Random Forest 🌲	 0.936	   7.69	     50.55
 
-XGBoost ⚡	       0.891	 18.80	 64.94
+XGBoost ⚡	       0.891	   18.80	   64.94
 
-LightGBM 💡      	 0.631	 23.55	 128.47
+LightGBM 💡      	 0.631	   23.55	   128.47
 
 Residual-based Model 🏆	⭐ Highest	⚡ Lowest overall	🏆 Best fit
 
