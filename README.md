@@ -1,10 +1,10 @@
-**Engage2Value: From Clicks to Conversions 🎯**
+Engage2Value: From Clicks to Conversions 🎯
 
 Predict purchase value from multi-session digital behavior using Machine Learning.
 
 This project is based on the Engage-2 Value: From Clicks to Conversions Kaggle competition. The challenge focuses on analyzing customer session-level data and building predictive models that estimate the purchaseValue during a given session.
 
-****📌 Problem Statement****
+📌 Problem Statement
 
 The dataset captures detailed session-level information from a large-scale digital commerce platform. Each row corresponds to a unique user session and contains:
 
@@ -18,7 +18,7 @@ Geographical Context: city, country, region, continent, metro, geoCluster.
 
 Identifiers: userId, sessionId.
 
-****🎯 Target Variable:****
+🎯 Target Variable:
 
 purchaseValue → The total amount spent during the session (numeric regression target).
 
@@ -30,8 +30,8 @@ test_data.csv – Test dataset (for predictions)
 
 sample_submission.csv – Submission template
 
-**
-**🛠️ Tech Stack****
+
+🛠️ Tech Stack
 
 Python 3
 
@@ -45,7 +45,7 @@ XGBoost, LightGBM, RandomForest → Regression models
 
 SciPy → Statistical analysis
 
-**🚀 Workflow******
+🚀 Workflow
 
 Data Import & Exploration
 
@@ -87,11 +87,11 @@ Evaluation
 
 Metric: R² Score, MAE, RMSE.
 
-**📊 Results******
+📊 Results
 Model	R² Score	MAE (Millions)	RMSE (Millions)
-Random Forest 🌲	0.936	  7.69	 50.55
-XGBoost ⚡	      0.891	  18.80	 64.94
-LightGBM 💡     	0.631	  23.55 	128.47
+Random Forest 🌲	0.936	7.69	50.55
+XGBoost ⚡	0.891	18.80	64.94
+LightGBM 💡	0.631	23.55	128.47
 Residual-based Model 🏆	⭐ Highest	⚡ Lowest overall	🏆 Best fit
 
 ✅ Best Model → Residual-based RandomForest approach
@@ -100,10 +100,12 @@ Achieved highest R² score
 
 Lowest overall MAE & RMSE
 
+Most reliable fit for predicting purchaseValue
 
-**🙌 Acknowledgements******
 
-Competition: Engage-2 Value: (https://www.kaggle.com/competitions/engage-2-value-from-clicks-to-conversions/data?select=sample_submission.csv)
+🙌 Acknowledgements
+
+Competition: Engage-2 Value: From Clicks to Conversions
 
 Dataset provided under Kaggle competition rules.
 
