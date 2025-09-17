@@ -1,4 +1,4 @@
-Engage2Value: From Clicks to Conversions 🎯
+**Engage2Value: From Clicks to Conversions 🎯**
 
 Predict purchase value from multi-session digital behavior using Machine Learning.
 
@@ -89,9 +89,9 @@ Metric: R² Score, MAE, RMSE.
 
 📊 Results
 Model	R² Score	MAE (Millions)	RMSE (Millions)
-Random Forest 🌲	0.936	7.69	50.55
-XGBoost ⚡	0.891	18.80	64.94
-LightGBM 💡	0.631	23.55	128.47
+Random Forest 🌲	 0.936	 7.69	   50.55
+XGBoost ⚡	       0.891	 18.80	 64.94
+LightGBM 💡      	 0.631	 23.55	 128.47
 Residual-based Model 🏆	⭐ Highest	⚡ Lowest overall	🏆 Best fit
 
 ✅ Best Model → Residual-based RandomForest approach
@@ -105,7 +105,7 @@ Most reliable fit for predicting purchaseValue
 
 🙌 Acknowledgements
 
-Competition: Engage-2 Value: From Clicks to Conversions
+Competition: Engage-2 Value: (https://www.kaggle.com/competitions/engage-2-value-from-clicks-to-conversions/data?select=sample_submission.csv)
 
 Dataset provided under Kaggle competition rules.
 
