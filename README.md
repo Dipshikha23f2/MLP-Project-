@@ -4,7 +4,7 @@ Predict purchase value from multi-session digital behavior using Machine Learnin
 
 This project is based on the Engage-2 Value: From Clicks to Conversions Kaggle competition. The challenge focuses on analyzing customer session-level data and building predictive models that estimate the purchaseValue during a given session.
 
-📌 Problem Statement
+**📌 Problem Statement**
 
 The dataset captures detailed session-level information from a large-scale digital commerce platform. Each row corresponds to a unique user session and contains:
 
@@ -17,8 +17,8 @@ Traffic & Marketing Source: userChannel, trafficSource.medium, campaign, ad clic
 Geographical Context: city, country, region, continent, metro, geoCluster.
 
 Identifiers: userId, sessionId.
-
-🎯 Target Variable:
+****
+🎯 Target Variable:****
 
 purchaseValue → The total amount spent during the session (numeric regression target).
 
@@ -31,8 +31,8 @@ test_data.csv – Test dataset (for predictions)
 sample_submission.csv – Submission template
 
 
-🛠️ Tech Stack
-
+****🛠️ Tech Stack
+****
 Python 3
 
 NumPy, Pandas → Data preprocessing & manipulation
@@ -45,7 +45,7 @@ XGBoost, LightGBM, RandomForest → Regression models
 
 SciPy → Statistical analysis
 
-🚀 Workflow
+**🚀 Workflow**
 
 Data Import & Exploration
 
@@ -53,8 +53,8 @@ Loaded training & test datasets.
 
 Inspected structure, data types, and target distribution.
 
-Data Cleaning & EDA
-
+**Data Cleaning & EDA
+**
 Removed outliers (extreme purchase values).
 
 Analyzed distributions, correlations, and categorical impacts.
@@ -69,7 +69,7 @@ Encoded categorical features (OneHotEncoder).
 
 Scaled skewed numeric features.
 
-Modeling
+**Modeling**
 
 Trained multiple models:
 
@@ -88,10 +88,15 @@ Evaluation
 Metric: R² Score, MAE, RMSE.
 
 📊 Results
+
 Model	R² Score	MAE (Millions)	RMSE (Millions)
+
 Random Forest 🌲	 0.936	 7.69	   50.55
+
 XGBoost ⚡	       0.891	 18.80	 64.94
+
 LightGBM 💡      	 0.631	 23.55	 128.47
+
 Residual-based Model 🏆	⭐ Highest	⚡ Lowest overall	🏆 Best fit
 
 ✅ Best Model → Residual-based RandomForest approach
@@ -102,8 +107,8 @@ Lowest overall MAE & RMSE
 
 Most reliable fit for predicting purchaseValue
 
-
-🙌 Acknowledgements
+**
+🙌 Acknowledgements**
 
 Competition: Engage-2 Value: (https://www.kaggle.com/competitions/engage-2-value-from-clicks-to-conversions/data?select=sample_submission.csv)
 
